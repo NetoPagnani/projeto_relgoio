@@ -51,7 +51,7 @@ function trocarImagem() {
 }
 
 function trocarTamanho() {
-  const idOpcaoSelecionada = document.querySelector(neto
+  const idOpcaoSelecionada = document.querySelector(
     '[name="opcao-tamanho"]:checked'
   ).id;
   tamanhoSelecionado = idOpcaoSelecionada.charAt(0);
